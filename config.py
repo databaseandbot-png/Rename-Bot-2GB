@@ -5,22 +5,22 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "25237912")
+    API_HASH  = os.environ.get("API_HASH", "e192dcc0926b4f447b8f28187f7e533b")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
-    DATABASE_NAME = os.environ.get("DATABASE_NAME","")     
+    DATABASE_NAME = os.environ.get("DATABASE_NAME","Davi")     
     DATABASE_URL  = os.environ.get("DATABASE_URL","")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/if11gf.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('admin', '5751033456').split()]
 
     # channels logs
-    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUBS   = os.environ.get("FORCE_SUBS", "-1003376160885") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003439981785"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
@@ -29,7 +29,15 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hello {} 👋 
+    START_TXT = """Hello {🌟 Welcome to File Renamer Bot! 🌟
+
+🚀 What I Can Do:
+• Rename videos with thumbnails 📝 
+
+📌 How to Use:
+1. Send me a video or reply to one
+2. Click on the buttons below to choose what you want to do
+3. Follow the interactive menus} 👋 
 
 ➻ This Is An Advanced And Yet Powerful Rename Bot.
 
@@ -90,7 +98,7 @@ class Txt(object):
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> `kumarjishusinha@ibl`
+<b>🛍 UPI ID:</b> `roronoadavi@fam`
 """
 
 
