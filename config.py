@@ -29,15 +29,7 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hello {🌟 Welcome to File Renamer Bot! 🌟
-
-🚀 What I Can Do:
-• Rename videos with thumbnails 📝 
-
-📌 How to Use:
-1. Send me a video or reply to one
-2. Click on the buttons below to choose what you want to do
-3. Follow the interactive menus} 👋 
+    START_TXT = """Hello {} 👋 
 
 ➻ This Is An Advanced And Yet Powerful Rename Bot.
 
@@ -47,17 +39,17 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @MadflixBotz"""
+<b>Bot Is Made By :</b> @orewa_luffy72"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/MadflixBotz>MadflixBotz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/MadflixSupport>Jishu Developer</a>
+├<b>🖥️ Developer</b> : <a href=https://t.me/orewa_franky>orewa_franky</a> 
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/orewa_franky>Davi Developer</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://instagram.com/jishukumarsinha>Rename v4.7.0</a></b>     
+├<b>📊 Build Version</b> : <a href=https://www.instagram.com/___void.z?utm_source=qr&igsh=NnJwdmtzbnlscDcy>Rename v4.7.0</a></b>     
 ╰───────────────⍟
 """
 
@@ -83,7 +75,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/MadflixSupport>Developer</a>
+𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/orewa_franky>Developer</a>
 """
 
     PROGRESS_BAR = """\n
@@ -106,9 +98,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @MadflixBotz</code>
+<code>By :- @orewa_franky</code>
 
-💬 For Any Help Contact @MadflixSupport
+💬 For Any Help Contact @orewa_franky
 """
 
 
@@ -118,9 +110,4 @@ For Example :-
 
 
 
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @MadflixBotz
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-# Contact @MadflixSupport
+
